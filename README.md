@@ -4,7 +4,6 @@ Figma link (registration is needed to see design details - spacing, colors etc):
 https://www.figma.com/file/yxjleoTJVTTbJCDEhNl8ko/KN-Test
 
 **NB**: If you don't have "dev" mode activated in figma, you can use default mode and press alt/option to get margins between elements.
-We expect you to implement all margins exactly as they are specified in Figma.
 
 Task is to create component with following behaviour:
 - By click on the "open modal" button - modal should appear as provided in figma design.
@@ -16,5 +15,6 @@ Things to consider:
 - Both main and description text of modal can span multiple lines
 - Backdrop is part of the modal
 - All required assets already exist in the project
+- It is expected for implementation to exactly follow color and spacing of the design from Figma
 
 You can push your code to any code hosting like GitHub, BitBucket or Gitlab.

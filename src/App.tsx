@@ -4,7 +4,7 @@ import useDelayedEnablement from './hooks/useDelayedEnablement';
 
 export function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const isSubmitEnabled = useDelayedEnablement(2000, [isModalOpen]);
+  const isSubmitEnabled = useDelayedEnablement(2000, isModalOpen);
 
   return (
     <>
